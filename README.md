@@ -23,7 +23,8 @@ Zum Öffnen mit einem Cutter-Messer an den 3 Seiten (welche keinen USB-Stecker h
 
 ## LEDs
 
-Die Lichtleiste enthält parallel geschaltete weiße LEDs **und** einen RGB LED Strip.
+Die Lichtleiste enthält abwechseln je `14` weiße LEDs **und** `14` RGB LEDs, beginnend mit einer weißen LED an der Seite der USB-Buchse.
+Alle weißen LEDs sind parallel geschaltet, die RGB LEDs seriell as Strip verbunden.
 
 | LED      | Vin (5V) | GND | DIN   |
 |----------|----------|-----|-------|
