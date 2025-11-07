@@ -29,3 +29,8 @@ Die Lichtleiste enthält parallel geschaltete weiße LEDs **und** einen RGB LED 
 |----------|----------|-----|-------|
 | White    | `+`      | `w` |       |
 | RGB LEDs | `+`      | `-` | `din` |
+
+[ESPHome](https://esphome.io/) Demo Project verfügbar in [`led.yaml`](led.yaml).
+
+* Liste der [Effekte der ESPHome Light Komponente](https://esphome.io/components/light/index.html#light-effects)
+* [Docker based ESPHome](https://github.com/ramdacxp/esphome)
