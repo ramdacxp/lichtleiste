@@ -23,8 +23,9 @@ Zum Öffnen mit einem Cutter-Messer an den 3 Seiten (welche keinen USB-Stecker h
 
 ## LEDs
 
-Die Lichtleiste enthält abwechseln je `14` weiße LEDs **und** `14` RGB LEDs, beginnend mit einer weißen LED an der Seite der USB-Buchse.
-Alle weißen LEDs sind parallel geschaltet, die RGB LEDs seriell as Strip verbunden.
+Die Lichtleiste enthält abwechselnd je `14` weiße LEDs **und** `14` RGB LEDs, beginnend mit einer weißen LED an der Seite der USB-Buchse.
+Alle weißen LEDs sind parallel geschaltet, die DIn- und DOut-Pins der WS2812 RGB LEDs sind seriell verbunden.
+Die Farbreihenfolge des WS2812 RGB LEDs ist: `GRB` (Grün-Rot-Blau).
 
 | LED      | Vin (5V) | GND | DIN   |
 |----------|----------|-----|-------|
@@ -34,4 +35,4 @@ Alle weißen LEDs sind parallel geschaltet, die RGB LEDs seriell as Strip verbun
 [ESPHome](https://esphome.io/) Demo Project verfügbar in [`led.yaml`](led.yaml).
 
 * Liste der [Effekte der ESPHome Light Komponente](https://esphome.io/components/light/index.html#light-effects)
-* [Docker based ESPHome](https://github.com/ramdacxp/esphome)
+* Siehe [Docker based ESPHome](https://github.com/ramdacxp/esphome) zur Nutzung ohne [Home Assistant](https://www.home-assistant.io/).
